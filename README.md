@@ -864,3 +864,282 @@ window.onscroll = () => {
 
 }
 JAVASCRIPT
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARUNKUMAR S</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--HEADER DESIGN-->
+    <header class="header">
+        <a href="#" class="logo"><span style="color: #00abf0; font-size: 5rem;">V</span>arun.<span class="animate" style="--i:1;"></span></a>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+           <!-- <a href="#contact">Contact</a>-->
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+    <!--HOME SECTION DESIGN-->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>VARUNKUMAR S</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Java Developer</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>A passionate Java Developer with recent degree in Bachelor of Engineering 
+                from Government college of Engineering, Dharmapuri. I recently graducated with a degree in Computer Science, where I gained
+                hands-on experience with Java programming. I have a strong foundation in Java, Object-Oriented Programming (OOP). I am also familiar with Web Technologies 
+                like HTML, CSS, and databases such as MySQL.
+                <span class="animate" style="--i:4;"></span></p>
+            <div class="btn-box">
+                <a href="mailto:varunvijay016@gmail.com" class="btn">Mail Me</a>
+                <a href="tel:+918248229870" class="btn">Let's Talk  <i class='bx bx-phone-call'></i></a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+
+        </div>
+        <div class="home-sci">
+            <a href="https://wa.me/918248229870?text=Hello, Varunkumar S"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="#"><i class='bx bxl-github'></i></i></a>
+            <a href="https://www.linkedin.com/in/varunkumar-s-java-developer"><i class='bx bxl-linkedin' ></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+        <div class="home-imgHover">
+            
+            <span class="animate home-img" style="--i:7;"></span>
+        </div>
+    </section>
+    <!--ABOUT SECTION DESIGN-->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <div class="about-img">
+            <img src="./image/about.png" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+        <div class="about-content">
+            <h3>Java Developer!<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>Hello, I' m  <b style="font-size: 25px;">VARUNKUMAR S</b> ,  a passionate Java Developer with recent degree in Bachelor of Engineering 
+                from Government college of Engineering, Dharmapuri. I recently graducated with a degree in Computer Science, where I gained
+                hands-on experience with Java programming. I have a strong foundation in Java, Object-Oriented Programming (OOP). I am also familiar with Web Technologies 
+                like HTML, CSS, and databases such as MySQL. " I' m eager to continue expanding my knowledge of Java and explore areas such as Spring framework and web development.
+                My goal is to innovative software solutions and grow as a developer". "Feel free to browse through my portfolio to see my projects, and don't 
+                hesitate to reach out if you'd like to discuss potential opportunities!"
+
+                <span class="animate scroll" style="--i:4;"></span></p>
+        
+            <div class="btn-box btns">
+                <a href="./image/Varunkumar.pdf" class="btn" download="Varunkumar S-Resume" >DOWNLOAD<i class='bx bx-down-arrow-alt' style="font-size: 30px;"></i></a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+    <!--EDUCATION SECTION DESIGN-->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2020-2024</div>
+                            <h3>Bachelor Degree-Anna University</h3>
+                            <h1 style="color: #f5f7fa; font-size: 2.5rem;">B.E - CSE</h1>
+                            <p>Government college of Engineering, Dharmapuri </p>
+                            <p style="color: #f5f7fa; font-size: 2rem;">CGPA: <b>7.0</b></p>
+
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2019-2020</div>
+                            <h3>HSC-State Board</h3>
+                            <p>Kanakadasa matric hr.sec.school,<br>Bargur </p>
+                            <p style="color: #f5f7fa; font-size: 2rem;">Percentage: <b>78%</b></p>
+
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2017-2018</div>
+                            <h3>SSLC-State Board</h3>
+                            <p>Selva matric hr.sec.school,<br>Bargur</p>
+                            <p style="color: #f5f7fa; font-size: 2rem;">Percentage: <b>86%</b></p>
+
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            
+            <div class="education-column">
+                <h3 class="title">Experience<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2022-2023</div>
+                            <h3>Project-1</h3>
+                            <p style="color: #f5f7fa; font-size: 2rem;">Title: <b>Kidney Tumour Segmentation</b></p>
+                            <p>Kidney tumour segmentation using nnUnet on CT-SCAN and developed a website using Flask.</p>
+
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2023-2024</div>
+                            <h3>Project-2</h3>
+                            <p style="color: #f5f7fa; font-size: 2rem;">Title: <b>Portfolio Website</b></p>
+                            <p style="color: #f5f7fa; font-size: 1.8rem;">A Portfolio Website is a digital space that showcases your work,skills, and experiences. 
+                                It can be used to share your work with potential employers, collaborators, or the press. </p>
+
+
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar' ></i>2022-2023</div>
+                            <h3>Internship</h3>
+                            <p style="color: #f5f7fa; font-size: 2rem;">Title: <b>Web Development</b></p>
+                            <p>I attended an internship in Web Development domain provided by NSIC at EKKADUTHANGAL.</p>
+
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SKILLS SECTION DESIGN-->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills<span class="animate scroll" style="--i:2;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JAVA <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SQL <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+            <div class="skills-column">
+                <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5;"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>web design <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>web development <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JAVA development<span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SQL development <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CONTACT SECTION DESIGN
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+
+            <div class="textarea-field">
+                  
+                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                 <span class="focus"></span>
+                 <span class="animate scroll" style="--i:7;"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+
+    </section>-->
+    <!--FOOTER SECTION DESIGN-->
+    <footer class="footer">
+        <div class="footer-text">
+          <a href="https://www.linkedin.com/in/varunkumar-s-java-developer"><p><b style="font-size: 2.5rem;">Linkedin:</b> "https://www.linkedin.com/in/varunkumar-s-java-developer"</p></a>  
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+        <div class="footer-icons">
+             <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+             <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
